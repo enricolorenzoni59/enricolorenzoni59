@@ -27,7 +27,7 @@ readsb is the multi-threaded C decoder behind a large part of the community ADS-
 
 ## [stream1090](https://github.com/mgrone/stream1090): C++ ADS-B / Mode S demodulator
 
-**50 merged pull requests** across DSP, demodulation, error correction, concurrency, SDR back-ends and CI.
+*Collaborator (write access)* · **50 merged pull requests** across DSP, demodulation, error correction, concurrency, SDR back-ends and CI.
 
 - **Performance:** [cut demodulator and DSP CPU by 24% on a Raspberry Pi 4 and 15% on a Pi 5](https://github.com/mgrone/stream1090/pull/38), with reproducible benchmarks. Also a [branchless CRC update](https://github.com/mgrone/stream1090/pull/27) and [CRC error-table lookups answered from an occupancy bitmap](https://github.com/mgrone/stream1090/pull/45).
 - **Error correction:** [repair extended squitters by solving for the least confident bits](https://github.com/mgrone/stream1090/pull/24), and [fixed collisions in the DF17 error table](https://github.com/mgrone/stream1090/pull/7).
